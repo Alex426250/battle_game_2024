@@ -1,5 +1,5 @@
 ﻿#include "battle_game/app/app.h"
-
+ 
 #include <string>
 
 #include "battle_game/core/object.h"
