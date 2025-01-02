@@ -123,7 +123,7 @@ void AlexTank::TankMove(float move_speed, float rotate_angular_speed) {
   }
 }
 
-void AlexTank::TurretRotate() {
+void AlexTank::TurretRotate() { 
   auto player = game_core_->GetPlayer(player_id_);
   if (player) {
     auto &input_data = player->GetInputData();
@@ -179,7 +179,7 @@ void AlexTank::Fire() {
       }
     }
   }
-  if (fire_count_down_) { 
+  if (fire_count_down_) {
     fire_count_down_--;
   }
   if (skill_count_down_) {
