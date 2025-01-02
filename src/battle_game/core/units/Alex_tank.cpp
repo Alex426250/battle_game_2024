@@ -197,6 +197,7 @@ bool AlexTank::IsHit(glm::vec2 position) const {
          position.y - position.x < 1.6f;
 }
 
+
 const char *AlexTank::UnitName() const {
   return "Alex Tank";
 }
