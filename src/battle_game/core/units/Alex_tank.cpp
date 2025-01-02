@@ -179,7 +179,7 @@ void AlexTank::Fire() {
       }
     }
   }
-  if (fire_count_down_) {
+  if (fire_count_down_) { 
     fire_count_down_--;
   }
   if (skill_count_down_) {
