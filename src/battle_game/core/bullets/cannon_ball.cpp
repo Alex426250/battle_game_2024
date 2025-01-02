@@ -25,6 +25,7 @@ void CannonBall::Render() {
 
 void CannonBall::Update() {
   position_ += velocity_ * kSecondPerTick;
+  damage_scale_-=0.4f*kSecondPerTick;
   bool should_die = false;
   if (game_core_->IsBlockedByObstacles(position_)) {
     should_die = true;
